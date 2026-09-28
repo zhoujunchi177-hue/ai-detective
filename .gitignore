@@ -35,3 +35,7 @@ __pycache__/
 # artifacts/*.png 每张约 1MB，历史上被重复提交过 14 次，是仓库膨胀的主因。
 # 截图请按需重新生成（frontend/scripts/*.mjs 会自动产出），不要进版本库。
 artifacts/*.png
+
+# AI 开发日志：记录了本地机器路径（C:/Users/...）等环境信息，且属于过程性
+# 记录而非源码，不适合随开源仓库分发。
+.workbuddy-ai/
