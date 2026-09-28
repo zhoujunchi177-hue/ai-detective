@@ -1,0 +1,445 @@
+{
+  "browserPath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "username": "demo_investigator",
+  "checkedAt": "2026-09-21T12:39:08.623Z",
+  "consoleErrors": [],
+  "logState": {
+    "entryCount": 11,
+    "rawJsonLeaked": false,
+    "chips": [
+      "调查地点",
+      "推理分析"
+    ],
+    "firstRow": "2026-09-20 23:56调查地点酒店大厅与前台你重新检查了酒店大厅与前台。没有新的可验证内容，但已有记录仍可与其他时间点交叉比对。"
+  },
+  "logFilterState": {
+    "types": {
+      "调查地点": {
+        "rows": 8,
+        "chipLabels": [
+          "调查地点"
+        ],
+        "noMatchShown": false,
+        "summary": "第 1 / 1 页 · 共 8 条（已按当前筛选）"
+      },
+      "推理分析": {
+        "rows": 3,
+        "chipLabels": [
+          "推理分析"
+        ],
+        "noMatchShown": false,
+        "summary": "第 1 / 1 页 · 共 3 条（已按当前筛选）"
+      },
+      "谜题校验": {
+        "rows": 0,
+        "chipLabels": [],
+        "noMatchShown": true,
+        "summary": ""
+      }
+    },
+    "keyword": {
+      "rows": 4,
+      "summary": "第 1 / 1 页 · 共 4 条（已按当前筛选）"
+    },
+    "noMatch": {
+      "rows": 0,
+      "noMatchShown": true
+    },
+    "afterReset": {
+      "rows": 11,
+      "keyword": ""
+    },
+    "range": {
+      "future": {
+        "rows": 0,
+        "noMatchShown": true,
+        "from": "2099-01-01",
+        "clearButtonShown": true
+      },
+      "afterClear": {
+        "rows": 11,
+        "from": ""
+      },
+      "colorScheme": "dark"
+    },
+    "pager": {
+      "shown": false,
+      "rows": 11
+    },
+    "export": {
+      "suggestedFilename": "mindtrace-log-1-20260921-2038.md",
+      "bytes": 760,
+      "headingCount": 3,
+      "visibleRows": 3,
+      "hasTitle": true,
+      "hasRealityNotice": true
+    }
+  },
+  "demoListState": {
+    "cardCount": 3,
+    "cards": [
+      {
+        "progressLabel": "已完成",
+        "percentText": "98%",
+        "action": "查看结论",
+        "detail": "地点 5/5线索 13/14谜题 3/3",
+        "completed": true,
+        "separateTracks": true
+      },
+      {
+        "progressLabel": "已完成",
+        "percentText": "60%",
+        "action": "查看结论",
+        "detail": "地点 1/4线索 3/7谜题 1/1",
+        "completed": true,
+        "separateTracks": true
+      },
+      {
+        "progressLabel": "未开始",
+        "percentText": "0%",
+        "action": "开始调查",
+        "detail": "还没有开始调查",
+        "completed": false,
+        "separateTracks": true
+      }
+    ]
+  },
+  "audioState": {
+    "sliderCount": 2,
+    "initial": {
+      "bgmPercent": "25%",
+      "sfxPercent": "60%",
+      "bgmPressed": "true",
+      "sfxPressed": "true",
+      "muteLabel": "全部静音"
+    },
+    "afterBgm": {
+      "bgmPercent": "10%",
+      "sfxPercent": "60%",
+      "bgmPressed": "true",
+      "sfxPressed": "true",
+      "muteLabel": "全部静音"
+    },
+    "afterSfx": {
+      "bgmPercent": "10%",
+      "sfxPercent": "90%",
+      "bgmPressed": "true",
+      "sfxPressed": "true",
+      "muteLabel": "全部静音"
+    },
+    "sfxOff": {
+      "bgmPercent": "10%",
+      "sfxPercent": "90%",
+      "bgmPressed": "true",
+      "sfxPressed": "false",
+      "muteLabel": "全部静音"
+    },
+    "allMuted": {
+      "bgmPercent": "10%",
+      "sfxPercent": "90%",
+      "bgmPressed": "false",
+      "sfxPressed": "false",
+      "muteLabel": "恢复声音"
+    },
+    "restored": {
+      "bgmPercent": "10%",
+      "sfxPercent": "90%",
+      "bgmPressed": "true",
+      "sfxPressed": "true",
+      "muteLabel": "全部静音"
+    },
+    "stored": {
+      "bgmVolume": "0.1",
+      "sfxVolume": "0.9",
+      "bgmOn": "on",
+      "sfxOn": "on"
+    }
+  },
+  "revealState": {
+    "before": {
+      "total": 3,
+      "belowFold": 3,
+      "belowHasRevealClass": true,
+      "belowHidden": true,
+      "belowNotMarkedVisible": true,
+      "transitionDuration": "0.9s, 0.9s"
+    },
+    "after": {
+      "visibleCount": 3,
+      "lastMarkedVisible": true,
+      "lastOpacity": 1,
+      "lastDelay": "220ms"
+    },
+    "reducedMotion": {
+      "count": 3,
+      "allVisible": true,
+      "allMarked": true
+    }
+  },
+  "mapState": {
+    "nodeCount": 5,
+    "statuses": [
+      "completed",
+      "completed",
+      "completed",
+      "completed",
+      "completed"
+    ],
+    "clueBadges": 5,
+    "activeStatus": "completed",
+    "badgeText": "已完成",
+    "badgeClass": "node-badge--completed",
+    "metricsRows": 2
+  },
+  "lockedState": {
+    "totalNodes": 5,
+    "lockedCount": 3,
+    "availableCount": 2,
+    "lockedHasNoClueBadge": true,
+    "lockedMarkedAriaDisabled": true,
+    "activeIsNotLocked": true
+  },
+  "lockedClickState": {
+    "active": "酒店大厅与前台0/2",
+    "warningShown": true,
+    "activeUnchanged": true
+  },
+  "freshListState": {
+    "cardCount": 3,
+    "cards": [
+      {
+        "progressLabel": "调查中",
+        "percentText": "12%",
+        "action": "继续调查",
+        "detail": "地点 1/5线索 3/14谜题 0/3",
+        "completed": false
+      },
+      {
+        "progressLabel": "未开始",
+        "percentText": "0%",
+        "action": "开始调查",
+        "detail": "还没有开始调查",
+        "completed": false
+      },
+      {
+        "progressLabel": "未开始",
+        "percentText": "0%",
+        "action": "开始调查",
+        "detail": "还没有开始调查",
+        "completed": false
+      }
+    ]
+  },
+  "boardState": {
+    "nodeCount": 13,
+    "lineCount": 0,
+    "linkRows": 0,
+    "selectCount": 3,
+    "relationOptionCount": 4,
+    "submitDisabled": true,
+    "realityNoticeShown": true
+  },
+  "boardAfterCreate": {
+    "linkRows": 1,
+    "lineCount": 1,
+    "noteShown": true,
+    "relationLabelShown": true
+  },
+  "boardAfterDelete": {
+    "linkRows": 0,
+    "lineCount": 0,
+    "noteGone": true
+  },
+  "achievementState": {
+    "totalCards": 4,
+    "unlockedCards": 4,
+    "lockedCards": 0,
+    "percent": "100%",
+    "rewardShown": true
+  },
+  "rarityState": {
+    "totalCards": 4,
+    "cardsWithRarity": 4,
+    "allLabelsValid": true,
+    "tiersInCards": [
+      "传说",
+      "史诗",
+      "稀有",
+      "常见"
+    ],
+    "boardCells": 4,
+    "boardNote": "稀有度只表示拿到这枚徽章需要玩到多深，由数据库定义，不参与解锁判定 —— 判定条件是 Java 代码里的硬逻辑。"
+  },
+  "shareState": {
+    "shown": true,
+    "naturalWidth": 1200,
+    "naturalHeight": 720,
+    "error": "",
+    "meta": "1200 × 720 PNG · 87 KB",
+    "suggestedFilename": "mindtrace-achievements-测试调查员-20260921.png",
+    "bytes": 88598,
+    "pngSignature": true,
+    "width": 1200,
+    "height": 720
+  },
+  "lockedFilterState": {
+    "cards": 0,
+    "emptyShown": true
+  },
+  "overflow": [
+    {
+      "label": "home-desktop",
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "label": "cases-desktop",
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "label": "case-desktop",
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "label": "case-log",
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "label": "case-map",
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "label": "case-evidence-board",
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "label": "achievements-desktop",
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "label": "case-mobile",
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "horizontalOverflow": false
+    },
+    {
+      "label": "case-log-mobile",
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "horizontalOverflow": false
+    },
+    {
+      "label": "achievements-mobile",
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "horizontalOverflow": false
+    },
+    {
+      "label": "case-locked-map",
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "horizontalOverflow": false
+    }
+  ],
+  "screenshots": [
+    "01-login.png",
+    "02-home.png",
+    "03-cases.png",
+    "04-case-desktop.png",
+    "05-case-mobile.png",
+    "06-case-log.png",
+    "07-case-log-mobile.png",
+    "08-achievements.png",
+    "09-achievements-locked.png",
+    "10-achievements-mobile.png",
+    "11-log-filtered.png",
+    "12-log-no-match.png",
+    "22-log-date-range.png",
+    "13-case-map-nodes.png",
+    "14-case-locked-map.png",
+    "15-case-evidence-board.png",
+    "16-case-evidence-link.png",
+    "20-achievements-rarity.png",
+    "21-achievements-share.png"
+  ],
+  "checks": {
+    "noConsoleErrors": true,
+    "noHorizontalOverflow": true,
+    "logDoesNotLeakRawJson": true,
+    "logTypeFilterIsolatesTypes": true,
+    "logKeywordNarrowsList": true,
+    "logNonsenseKeywordShowsEmptyState": true,
+    "logClearFilterRestoresAll": true,
+    "logDateRangeFiltersToNothing": true,
+    "logDateRangeInputKeepsItsValue": true,
+    "logClearRestoresAfterDateRange": true,
+    "logDateInputUsesDarkColorScheme": true,
+    "logPagerHiddenWhenSinglePage": true,
+    "logExportMatchesFilter": true,
+    "achievementsRewardShown": true,
+    "achievementsCardsMatchUnlockedCount": true,
+    "lockedFilterMatchesLockedCards": true,
+    "achievementsShowRarityOnEveryCard": true,
+    "achievementsRarityBoardMatchesTiers": true,
+    "shareCardPreviewIsRealImage": true,
+    "shareCardDownloadIsPng": true,
+    "shareCardFilenameIsMeaningful": true,
+    "mapNodesExposeBackendStatus": true,
+    "mapRendersEveryLocation": true,
+    "mapShowsClueProgress": true,
+    "mapDetailBadgeMatchesNodeState": true,
+    "lockedNodesAreRendered": true,
+    "lockedNodesHideClueCounts": true,
+    "lockedNodesMarkedAriaDisabled": true,
+    "freshAccountOpensOnAnUnlockedNode": true,
+    "lockedNodeClickDoesNotSelectIt": true,
+    "lockedNodeClickExplainsWhy": true,
+    "boardRendersDiscoveredClues": true,
+    "boardExposesRelationOptions": true,
+    "boardStatesItIsPlayerReasoningNotCaseFact": true,
+    "boardLinesMatchExistingLinks": true,
+    "boardSubmitNeedsBothEnds": true,
+    "boardCreateAddsLink": true,
+    "boardCreateDrawsLine": true,
+    "boardCreateShowsRelationLabel": true,
+    "boardDeleteRemovesLink": true,
+    "casesShowPlayerProgress": true,
+    "casesSeparateArchiveFromContentCompletion": true,
+    "caseActionMatchesProgressLabel": true,
+    "casesCoverBothStartedAndUntouched": true,
+    "finishedCaseOffersConclusion": true,
+    "unstartedCasesOfferStart": true,
+    "freshAccountListsUntouchedCasesAsStart": true,
+    "freshAccountSwitchesToContinue": true,
+    "freshAccountProgressIsNonZero": true,
+    "freshAccountShowsProgressBreakdown": true,
+    "audioPanelExposesTwoIndependentSliders": true,
+    "audioShowsBothPercentages": true,
+    "audioBgmSliderOnlyMovesBgm": true,
+    "audioSfxSliderOnlyMovesSfx": true,
+    "audioSfxToggleDoesNotTouchBgm": true,
+    "audioMuteAllTurnsBothOff": true,
+    "audioMuteAllKeepsVolumes": true,
+    "audioRestoreTurnsBothBackOn": true,
+    "audioSettingsPersistAcrossReload": true,
+    "scrollRevealHidesBelowFold": true,
+    "scrollRevealUsesSlowTiming": true,
+    "scrollRevealPlaysOnScrollIntoView": true,
+    "scrollRevealAppliesStaggerDelay": true,
+    "reducedMotionShowsContentImmediately": true
+  },
+  "failedChecks": []
+}

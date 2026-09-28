@@ -1,0 +1,206 @@
+{
+  "baseUrl": "http://127.0.0.1:5173",
+  "total": 39,
+  "failed": 0,
+  "warned": 0,
+  "checks": [
+    {
+      "name": "悬疑档案馆 @1920px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1920"
+    },
+    {
+      "name": "悬疑档案馆 @1920px 内容非空白",
+      "pass": true,
+      "detail": "text=943 main=2115"
+    },
+    {
+      "name": "悬疑档案馆 @1440px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1440"
+    },
+    {
+      "name": "悬疑档案馆 @1440px 内容非空白",
+      "pass": true,
+      "detail": "text=943 main=2079"
+    },
+    {
+      "name": "悬疑档案馆 @1280px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1280"
+    },
+    {
+      "name": "悬疑档案馆 @1280px 内容非空白",
+      "pass": true,
+      "detail": "text=943 main=1985"
+    },
+    {
+      "name": "悬疑档案馆 @390px 无横向溢出",
+      "pass": true,
+      "detail": "doc=390"
+    },
+    {
+      "name": "悬疑档案馆 @390px 内容非空白",
+      "pass": true,
+      "detail": "text=856 main=3632"
+    },
+    {
+      "name": "案件档案 @1920px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1920"
+    },
+    {
+      "name": "案件档案 @1920px 内容非空白",
+      "pass": true,
+      "detail": "text=806 main=1325"
+    },
+    {
+      "name": "案件档案 @1440px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1440"
+    },
+    {
+      "name": "案件档案 @1440px 内容非空白",
+      "pass": true,
+      "detail": "text=806 main=1286"
+    },
+    {
+      "name": "案件档案 @1280px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1280"
+    },
+    {
+      "name": "案件档案 @1280px 内容非空白",
+      "pass": true,
+      "detail": "text=806 main=1216"
+    },
+    {
+      "name": "案件档案 @390px 无横向溢出",
+      "pass": true,
+      "detail": "doc=390"
+    },
+    {
+      "name": "案件档案 @390px 内容非空白",
+      "pass": true,
+      "detail": "text=743 main=3079"
+    },
+    {
+      "name": "调查台 @1920px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1920"
+    },
+    {
+      "name": "调查台 @1920px 内容非空白",
+      "pass": true,
+      "detail": "text=1670 main=2484"
+    },
+    {
+      "name": "调查台 @1440px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1440"
+    },
+    {
+      "name": "调查台 @1440px 内容非空白",
+      "pass": true,
+      "detail": "text=1670 main=2484"
+    },
+    {
+      "name": "调查台 @1280px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1280"
+    },
+    {
+      "name": "调查台 @1280px 内容非空白",
+      "pass": true,
+      "detail": "text=1670 main=2589"
+    },
+    {
+      "name": "调查台 @390px 无横向溢出",
+      "pass": true,
+      "detail": "doc=390"
+    },
+    {
+      "name": "调查台 @390px 内容非空白",
+      "pass": true,
+      "detail": "text=1598 main=3830"
+    },
+    {
+      "name": "成就徽章 @1440px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1440"
+    },
+    {
+      "name": "成就徽章 @1440px 内容非空白",
+      "pass": true,
+      "detail": "text=725 main=953"
+    },
+    {
+      "name": "排行榜 @1440px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1440"
+    },
+    {
+      "name": "排行榜 @1440px 内容非空白",
+      "pass": true,
+      "detail": "text=1937 main=3511"
+    },
+    {
+      "name": "调查员档案 @1440px 无横向溢出",
+      "pass": true,
+      "detail": "doc=1440"
+    },
+    {
+      "name": "调查员档案 @1440px 内容非空白",
+      "pass": true,
+      "detail": "text=485 main=935"
+    },
+    {
+      "name": "Part 25 全程无真实控制台错误",
+      "pass": true,
+      "detail": "0 条"
+    },
+    {
+      "name": "Part 26 页面加载期间无 4xx/5xx 响应",
+      "pass": true,
+      "detail": "0 条"
+    },
+    {
+      "name": "Part 26 没有异常的重复请求（单次加载同一接口 ≤3 次）",
+      "pass": true,
+      "detail": "无"
+    },
+    {
+      "name": "接口 500：页面未白屏",
+      "pass": true,
+      "detail": "text=202"
+    },
+    {
+      "name": "接口 500：给出了可读提示",
+      "pass": true,
+      "detail": "文案命中"
+    },
+    {
+      "name": "网络中断：页面未白屏",
+      "pass": true,
+      "detail": "text=202"
+    },
+    {
+      "name": "网络中断：给出了可读提示",
+      "pass": true,
+      "detail": "文案命中"
+    },
+    {
+      "name": "令牌失效后跳转到登录页",
+      "pass": true,
+      "detail": "url=http://127.0.0.1:5173/login?expired=1"
+    },
+    {
+      "name": "令牌失效后本地令牌被清理",
+      "pass": true,
+      "detail": "cleared=true"
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "badResponses": []
+}

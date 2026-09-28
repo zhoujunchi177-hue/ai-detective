@@ -1,0 +1,27 @@
+# 统一换行符，避免 Windows 与 Unix 环境之间产生无意义的整文件 diff
+* text=auto
+
+# 脚本保持 Windows 换行，保证在 PowerShell / cmd 下可直接执行
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.sh text eol=lf
+
+# 二进制资源不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mp3 binary
+*.woff binary
+*.woff2 binary
+
+# 明确文本类型，便于 diff 与统计
+*.java text
+*.ts text
+*.vue text
+*.sql text
+*.md text
+*.yml text
+*.json text

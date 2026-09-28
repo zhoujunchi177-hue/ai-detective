@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Dark investigation archive room">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071012"/>
+      <stop offset="0.52" stop-color="#121b1e"/>
+      <stop offset="1" stop-color="#080b0d"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#182125"/>
+      <stop offset="1" stop-color="#080b0d"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#e0ad67" stop-opacity=".8"/>
+      <stop offset=".34" stop-color="#b97843" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#b97843" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <pattern id="grain" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M0 18h80M0 47h80M21 0v80M61 0v80" stroke="#98b4b7" stroke-opacity=".035"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <path d="M0 710 565 552 1600 680V1000H0Z" fill="url(#floor)"/>
+  <path d="M0 0h360v710L0 820Z" fill="#0b1114"/>
+  <path d="M1600 0h-420v680l420 96Z" fill="#0a0f12"/>
+  <g fill="#172126" stroke="#395057" stroke-opacity=".35">
+    <path d="M54 82h290v600H54z"/>
+    <path d="M94 110h210v148H94zM94 286h210v148H94zM94 462h210v148H94z"/>
+    <path d="M1288 60h260v612h-260z"/>
+    <path d="M1315 96h205v148h-205zM1315 273h205v148h-205zM1315 450h205v148h-205z"/>
+  </g>
+  <g stroke="#6d8b8e" stroke-opacity=".22">
+    <path d="M104 122h190M104 138h150M104 314h190M104 330h126M104 490h190M104 506h175"/>
+    <path d="M1325 112h185M1325 128h144M1325 289h185M1325 305h120M1325 466h185M1325 482h160"/>
+  </g>
+  <path d="M565 552 1010 466l590 214v320H565Z" fill="#11181b"/>
+  <path d="m610 575 390-84 380 114-238 140Z" fill="#263236" stroke="#7a999b" stroke-opacity=".2"/>
+  <path d="m610 575 532 170v188L610 758Z" fill="#1b2529"/>
+  <path d="m1142 661v272l458-153V680Z" fill="#0e1518"/>
+  <g transform="translate(800 304)">
+    <ellipse cx="0" cy="338" rx="350" ry="110" fill="#c0824b" opacity=".11" filter="url(#blur)"/>
+    <path d="M-150 330h300l50 86H-200Z" fill="#1f2729"/>
+    <path d="M-126 310h252v28H-126Z" fill="#4b5653"/>
+    <path d="M16-80 82 286h-138Z" fill="#a76a3d" opacity=".38"/>
+    <circle cx="0" cy="-98" r="170" fill="url(#lamp)"/>
+  </g>
+  <g fill="#d7d1c3" opacity=".62">
+    <rect x="675" y="624" width="154" height="108" rx="3" transform="rotate(-10 675 624)"/>
+    <rect x="710" y="646" width="164" height="118" rx="3" transform="rotate(5 710 646)" fill="#b8b1a4"/>
+    <rect x="952" y="618" width="164" height="108" rx="3" transform="rotate(3 952 618)" fill="#a7aaa2"/>
+    <rect x="925" y="675" width="178" height="124" rx="3" transform="rotate(-7 925 675)" fill="#d0c8b8"/>
+  </g>
+  <g stroke="#44585e" stroke-width="2" opacity=".65">
+    <path d="M712 680l105-18M706 704l126-22M958 663l116 6M953 686l130 7"/>
+    <path d="M943 728l118-14M945 753l136-16"/>
+  </g>
+  <g fill="#71b9b2" opacity=".16">
+    <circle cx="1460" cy="140" r="4"/>
+    <circle cx="1410" cy="174" r="2"/>
+    <circle cx="1505" cy="194" r="3"/>
+    <circle cx="180" cy="625" r="3"/>
+    <circle cx="242" cy="650" r="2"/>
+  </g>
+  <rect width="1600" height="1000" fill="url(#grain)"/>
+  <path d="M0 0h1600v1000H0Z" fill="none" stroke="#b7d0d2" stroke-opacity=".08"/>
+</svg>
+

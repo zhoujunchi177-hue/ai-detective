@@ -1,0 +1,51 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: mindtrace-backend
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${DB_URL:jdbc:mysql://127.0.0.1:3306/mindtrace?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:}
+  jackson:
+    default-property-inclusion: non_null
+    time-zone: Asia/Shanghai
+  mvc:
+    async:
+      request-timeout: 90000
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    banner: false
+    db-config:
+      id-type: auto
+
+deepseek:
+  base-url: ${DEEPSEEK_BASE_URL:https://api.deepseek.com}
+  api-key: ${DEEPSEEK_API_KEY:}
+  model: ${DEEPSEEK_MODEL:deepseek-flash}
+  timeout-seconds: ${DEEPSEEK_TIMEOUT_SECONDS:60}
+  # 推理模型会把思维链 token 计入 max_tokens，JSON 模式必须给足预算，否则 JSON 会被截断。
+  chat-max-tokens: ${DEEPSEEK_CHAT_MAX_TOKENS:1200}
+  json-max-tokens: ${DEEPSEEK_JSON_MAX_TOKENS:8000}
+  # 关闭模型「思考」过程：实测可省约 90% 输出 token（输出占成本 62%~96%）。
+  # ⚠️ 属行为变更（思考有助于守约束、抗注入），默认 false 保持原行为；
+  #    开启前先跑 verify-npc-voice.py ×7 与 npc-chat-ui-check.mjs。详见 scripts/probe-thinking-param.py。
+  disable-thinking: ${DEEPSEEK_DISABLE_THINKING:false}
+
+jwt:
+  secret: ${JWT_SECRET:mindtrace-development-secret-change-this-in-production-2026}
+  expiration-hours: ${JWT_EXPIRATION_HOURS:72}
+
+app:
+  cors:
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173,http://127.0.0.1:5173}
+
+logging:
+  level:
+    com.mindtrace: INFO
+

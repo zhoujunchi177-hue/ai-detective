@@ -1,0 +1,37 @@
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+
+frontend/node_modules/
+frontend/dist/
+# 沙箱里 vite build 的 emptyOutDir 会被拦，构建前先把旧 dist 改名成这个前缀。
+# 它随时可能出现，不该被当成待提交的内容。
+frontend/.runtime-old-dist-*/
+# 备份目录万一没删掉（回收站工具失败时 shim 会 fail-closed，连 mv 都会拦），别让它进仓库。
+frontend/dist.bak-*/
+frontend/.env.local
+
+# 音频文件由使用者自行放入，避免误提交有版权风险的资源
+frontend/public/audio/*.mp3
+frontend/public/audio/*.wav
+frontend/public/audio/*.ogg
+frontend/public/audio/*.m4a
+
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+.env
+.runtime/
+database/local-*.sql
+
+# 验收脚本里有 Python（scripts/*.py），跑 py_compile / import 会生成字节码目录
+__pycache__/
+*.pyc
+
+
+# 汇报稿和截图是「生成物」，不是源码。
+# artifacts/*.png 每张约 1MB，历史上被重复提交过 14 次，是仓库膨胀的主因。
+# 截图请按需重新生成（frontend/scripts/*.mjs 会自动产出），不要进版本库。
+artifacts/*.png

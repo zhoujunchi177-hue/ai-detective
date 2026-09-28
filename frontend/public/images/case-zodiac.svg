@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Northern California noir cipher and map case cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071012"/>
+      <stop offset=".58" stop-color="#142226"/>
+      <stop offset="1" stop-color="#06090a"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8d4c5"/>
+      <stop offset="1" stop-color="#9d9f93"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0v44" fill="none" stroke="#89a8aa" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <rect width="900" height="1100" fill="url(#grid)"/>
+  <path d="M0 724c154-75 248-86 352-47 105 39 178 38 262-9 93-51 173-57 286-9v441H0Z" fill="#0b1417" stroke="#5f7f81" stroke-opacity=".22"/>
+  <g fill="none" stroke="#6f9897" stroke-opacity=".25">
+    <path d="M76 725c124-54 205-60 298-28 95 33 168 37 250 5 93-36 173-40 246-6"/>
+    <path d="M148 794c107-39 181-42 258-15 84 29 148 29 225 0 81-30 143-32 211-5"/>
+  </g>
+  <path d="M0 865c126-43 240-53 343-21 108 34 187 29 278-10 102-44 190-46 279-10v276H0Z" fill="#081012"/>
+  <g transform="translate(72 100) rotate(5)">
+    <rect width="520" height="650" rx="2" fill="url(#paper)"/>
+    <g stroke="#2d3433" stroke-width="3" opacity=".65">
+      <path d="M42 66h435M42 94h322"/>
+    </g>
+    <g fill="#333937" opacity=".58">
+      <text x="42" y="170" font-family="monospace" font-size="46" letter-spacing="14">A9F2K7</text>
+      <text x="42" y="230" font-family="monospace" font-size="46" letter-spacing="6">R4M8X1Q</text>
+      <text x="42" y="290" font-family="monospace" font-size="46" letter-spacing="11">3ZP0C6V</text>
+      <text x="42" y="350" font-family="monospace" font-size="46" letter-spacing="5">N8L5B2S</text>
+      <text x="42" y="410" font-family="monospace" font-size="46" letter-spacing="13">E7H1T4U</text>
+      <text x="42" y="470" font-family="monospace" font-size="46" letter-spacing="8">D0J6W3Y</text>
+    </g>
+    <g fill="none" stroke="#333937" stroke-width="2" opacity=".5">
+      <circle cx="260" cy="575" r="54"/>
+      <path d="M260 489v172M174 575h172M199 514l122 122M321 514 199 636"/>
+    </g>
+  </g>
+  <g transform="translate(530 430) rotate(-6)">
+    <rect width="285" height="510" rx="3" fill="#171c1c" stroke="#728a89" stroke-opacity=".3"/>
+    <path d="M40 60h205v240L40 350Z" fill="#263332" opacity=".7"/>
+    <path d="M40 350 245 300v130L40 490Z" fill="#1c2828"/>
+    <g fill="none" stroke="#9cb4b2" stroke-opacity=".38">
+      <path d="M64 102c58-31 126-32 176 2"/>
+      <path d="M55 150c72-44 149-42 201 7"/>
+      <path d="M50 210c73-47 154-46 211 10"/>
+    </g>
+    <circle cx="112" cy="182" r="7" fill="#b85d56"/>
+    <circle cx="213" cy="267" r="6" fill="#cc9b57"/>
+    <circle cx="160" cy="383" r="6" fill="#5db7b0"/>
+  </g>
+  <path d="M0 0h900v1100H0Z" fill="none" stroke="#a4bcbc" stroke-opacity=".09"/>
+</svg>

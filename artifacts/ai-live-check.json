@@ -1,0 +1,79 @@
+{
+  "username": "liveui1789994289225",
+  "checks": [
+    {
+      "name": "01 注册后进入档案馆",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02 后端报告 DeepSeek 已配置",
+      "passed": true,
+      "detail": "deepSeekConfigured=true"
+    },
+    {
+      "name": "03 案件详情页有可对话的 NPC",
+      "passed": true,
+      "detail": "NPC 按钮 3 个"
+    },
+    {
+      "name": "04 对话请求返回 200",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "05 响应标记 aiAvailable=true（走的是真实 AI，不是降级）",
+      "passed": true,
+      "detail": "aiAvailable=true aiNotice=undefined"
+    },
+    {
+      "name": "06 响应含非空 AI 回复",
+      "passed": true,
+      "detail": "回复 51 字"
+    },
+    {
+      "name": "07 Vue 已把 AI 回复渲染到对话区",
+      "passed": true,
+      "detail": "页面上找到「供水那事我真没印象，也没听谁跟我提过…」"
+    },
+    {
+      "name": "08 所有 API 响应体中都没有密钥",
+      "passed": true,
+      "detail": "扫描 9 条响应"
+    },
+    {
+      "name": "09 页面 DOM 中没有密钥",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10 localStorage/sessionStorage 中没有密钥",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11 页面内联脚本中没有密钥",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12 浏览器控制台无报错",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "consoleErrors": [],
+  "capturedApiUrls": [
+    "200 http://127.0.0.1:5173/api/auth/register",
+    "200 http://127.0.0.1:5173/api/cases",
+    "200 http://127.0.0.1:8080/api/health",
+    "200 http://127.0.0.1:5173/api/user/profile",
+    "200 http://127.0.0.1:5173/api/user/profile",
+    "200 http://127.0.0.1:5173/api/cases/1",
+    "200 http://127.0.0.1:5173/api/cases/1/history?page=1&size=20",
+    "200 http://127.0.0.1:5173/api/cases/1/chat?npcId=1",
+    "200 http://127.0.0.1:5173/api/cases/1/chat"
+  ],
+  "chatAiAvailable": true,
+  "chatReplyLength": 51
+}

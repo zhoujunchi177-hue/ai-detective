@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="1940s Los Angeles noir newspaper archive case cover">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11130f"/>
+      <stop offset=".55" stop-color="#20221b"/>
+      <stop offset="1" stop-color="#080908"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ded7c4"/>
+      <stop offset="1" stop-color="#9a9484"/>
+    </linearGradient>
+    <pattern id="rain" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <path d="M8 0v38M28 0v38" stroke="#d9dfdb" stroke-opacity=".035"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1100" fill="url(#night)"/>
+  <path d="M0 730 260 590l190 88 190-112 260 166v368H0Z" fill="#0a0c0b"/>
+  <g fill="#171a17" stroke="#6b705f" stroke-opacity=".18">
+    <path d="M52 280h145v450H52z"/>
+    <path d="M225 360h122v370H225z"/>
+    <path d="M382 245h110v485H382z"/>
+    <path d="M526 330h132v400H526z"/>
+    <path d="M692 285h156v445H692z"/>
+  </g>
+  <g fill="#ccb879" opacity=".22">
+    <rect x="78" y="320" width="25" height="38"/>
+    <rect x="120" y="320" width="25" height="38"/>
+    <rect x="402" y="292" width="21" height="40"/>
+    <rect x="438" y="292" width="21" height="40"/>
+    <rect x="722" y="330" width="24" height="43"/>
+    <rect x="781" y="330" width="24" height="43"/>
+  </g>
+  <g transform="translate(110 150) rotate(-7)">
+    <rect width="650" height="760" rx="3" fill="url(#paper)"/>
+    <path d="M34 116h582M34 148h470M34 178h530" stroke="#373a34" stroke-width="5" opacity=".55"/>
+    <path d="M34 240h278v236H34Z" fill="#5d645d" opacity=".42"/>
+    <g fill="#383b35" opacity=".45">
+      <path d="M350 238h268v7H350zM350 258h214v5H350zM350 275h250v5H350zM350 292h190v5H350zM350 325h268v7H350zM350 345h222v5H350zM350 362h250v5H350zM350 379h170v5H350z"/>
+      <path d="M34 514h584v6H34zM34 536h470v5H34zM34 553h552v5H34zM34 570h404v5H34zM34 604h584v6H34zM34 626h490v5H34zM34 643h540v5H34z"/>
+    </g>
+    <circle cx="170" cy="354" r="65" fill="none" stroke="#31352f" stroke-width="2" opacity=".35"/>
+    <path d="m127 354 62-38 51 70-61 35Z" fill="#31352f" opacity=".25"/>
+  </g>
+  <path d="M90 965h720" stroke="#b8a466" stroke-opacity=".32"/>
+  <path d="M140 1000h620" stroke="#b8a466" stroke-opacity=".15"/>
+  <rect width="900" height="1100" fill="url(#rain)"/>
+</svg>

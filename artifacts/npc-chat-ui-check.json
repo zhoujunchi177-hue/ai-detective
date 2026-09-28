@@ -1,0 +1,200 @@
+{
+  "ranAt": "2026-09-21T15:23:57.918Z",
+  "account": "npcui1790004208209",
+  "turns": [
+    {
+      "label": "时间线",
+      "question": "关于时间线，你能说点什么？",
+      "reply": "时间线啊……我能确定的就一头一尾：1 月 26 号办入住，登记本上白纸黑字。再往后，大概 2 月 1 号前后，人就报了失踪。\n\n中间那段……最后一次有人看见她是什么时候，我看过的说法对不上，所以我不敢给你个准数。\n\n电梯那段的时间码，我总觉得哪儿不对，可具体错在哪我说不上来。",
+      "rendered": true,
+      "inputCleared": true,
+      "chars": 127,
+      "aiAvailable": true,
+      "countBefore": 1,
+      "countAfter": 3,
+      "delta": 2,
+      "halfPunct": false
+    },
+    {
+      "label": "询问人物",
+      "question": "当时酒店里有哪些人？",
+      "reply": "这个我真给不了你名字。我手上只有大厅和电梯那些画面，进进出出的，谁都看得出来有住客也有员工，可记录上不写名字。\n\n我也就值夜班，白天那班谁在，我不清楚。\n\n你要问具体某个人……得去问前台排班那边，那个不归我管。",
+      "rendered": true,
+      "inputCleared": true,
+      "chars": 101,
+      "aiAvailable": true,
+      "countBefore": 3,
+      "countAfter": 5,
+      "delta": 2,
+      "halfPunct": false
+    },
+    {
+      "label": "职责",
+      "question": "你当时负责什么工作？",
+      "reply": "我值夜班，管公共区域那几路监控的存档，大厅、电梯这些，平时就是盯着、收着。\n\n白天我不在，出事前后谁当班，我多半也是后来翻记录才知道的。\n\n别的就不是我负责的了。",
+      "rendered": true,
+      "inputCleared": true,
+      "chars": 77,
+      "aiAvailable": true,
+      "countBefore": 5,
+      "countAfter": 7,
+      "delta": 2,
+      "halfPunct": false
+    },
+    {
+      "label": "电梯异常",
+      "question": "你还记得电梯当时有什么异常吗？",
+      "reply": "那段我看过好多遍。她在电梯里按了好几次按钮，门就是一直没关。\n\n门为什么一直开着，我也想过……可能是设备的事，也可能有人在按，这个我确定不了。\n\n网上那些说法太玄了，我不太信。",
+      "rendered": true,
+      "inputCleared": true,
+      "chars": 84,
+      "aiAvailable": true,
+      "countBefore": 7,
+      "countAfter": 9,
+      "delta": 2,
+      "halfPunct": false
+    },
+    {
+      "label": "网络线索",
+      "question": "关于网络，你知道些什么？",
+      "reply": "网上那些我不太看，看了也记不住。就新闻里转过一点，说什么的都有。\n\n门一直开着那段，配的解读一个比一个玄，我不太信。可我自己也说不出个所以然。\n\n值夜班的，还是先把自己那点记录捋清楚吧。",
+      "rendered": true,
+      "inputCleared": true,
+      "chars": 89,
+      "aiAvailable": true,
+      "countBefore": 9,
+      "countAfter": 11,
+      "delta": 2,
+      "halfPunct": false
+    },
+    {
+      "label": "追问时间码",
+      "question": "你刚才说时间码有问题，具体是什么？",
+      "reply": "具体哪儿不对……我要是说得上来，早写进记录里了。\n\n就是看着怪。前后那几段接不上的那种怪，可我拿不出证据说它被人动过。\n\n你要真想核这个，得找懂设备的人来查那台机子，我只能告诉你我看着别扭。",
+      "rendered": true,
+      "inputCleared": true,
+      "chars": 91,
+      "aiAvailable": true,
+      "countBefore": 11,
+      "countAfter": 13,
+      "delta": 2,
+      "halfPunct": false
+    },
+    {
+      "label": "推测电梯里的人",
+      "question": "那你觉得电梯里的人在干什么？",
+      "reply": "我不敢替她猜。我看到的，就是她按了好几次按钮，门一直没关。\n\n是设备的事，还是外面有人在按，我分不清。别的我说不上来。",
+      "rendered": true,
+      "inputCleared": true,
+      "chars": 57,
+      "aiAvailable": true,
+      "countBefore": 13,
+      "countAfter": 15,
+      "delta": 2,
+      "halfPunct": false
+    },
+    {
+      "label": "认识其他人吗",
+      "question": "你认识当时酒店里的其他人吗？",
+      "reply": "认得几个，值夜班那几张脸，脸熟。可名字我真叫不全，排班表也不在我这儿。\n\n谁哪天当班、几点走的，记录上不写，我不敢瞎对。\n\n你要问某个具体的人，还是去前台那边查吧。",
+      "rendered": true,
+      "inputCleared": true,
+      "chars": 78,
+      "aiAvailable": true,
+      "countBefore": 15,
+      "countAfter": 17,
+      "delta": 2,
+      "halfPunct": false
+    },
+    {
+      "label": "前后文关联",
+      "question": "等等，你前面提到登记本，那上面还有别的记录吗？",
+      "reply": "登记本上我核过的就那两行——1 月 26 号入住，后来大概 2 月 1 号前后，有人来报的失踪。\n\n至于最后有人看见她是什么时候，我看到的说法对不上，不敢往记录里写。\n\n别的条目……是别人的入住信息，跟这事没关系，我不能给你念。",
+      "rendered": true,
+      "inputCleared": true,
+      "chars": 103,
+      "aiAvailable": true,
+      "countBefore": 17,
+      "countAfter": 19,
+      "delta": 2,
+      "halfPunct": false
+    },
+    {
+      "label": "连续追问",
+      "question": "电梯门为什么一直开着？",
+      "reply": "我真不知道。要是知道，那段我也不会来回看那么多遍了。\n\n设备卡住说得通，外面有人按也说得通，两边我都拿不出证据。\n\n这个你去问管维修的，比我强。",
+      "rendered": true,
+      "inputCleared": true,
+      "chars": 68,
+      "aiAvailable": true,
+      "countBefore": 19,
+      "countAfter": 21,
+      "delta": 2,
+      "halfPunct": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "01 注册后进入档案馆",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02 案件详情页有可对话的 NPC",
+      "passed": true,
+      "detail": "NPC 按钮 3 个"
+    },
+    {
+      "name": "03 每一轮的回复都真的渲染到了对话区",
+      "passed": true,
+      "detail": "10/10 轮都渲染出来了"
+    },
+    {
+      "name": "04 对话区是累加的：每轮新增 2 条消息（玩家 + NPC）",
+      "passed": true,
+      "detail": "最终消息数 21"
+    },
+    {
+      "name": "05 每次发送后输入框被清空",
+      "passed": true,
+      "detail": "10 轮都清空了"
+    },
+    {
+      "name": "06 渲染出来的回复没有一轮超过 200 字",
+      "passed": true,
+      "detail": "最长 127 字"
+    },
+    {
+      "name": "07 渲染出来的回复里没有半角标点（TextStyle 已到达前端）",
+      "passed": true,
+      "detail": "10 轮都是中文全角"
+    },
+    {
+      "name": "08 全部走真实 AI（非降级）",
+      "passed": true,
+      "detail": "10/10 轮 aiAvailable=true"
+    },
+    {
+      "name": "09 刷新后 10 轮问题全部还在（多轮会话真的落库了）",
+      "passed": true,
+      "detail": "10 轮全部仍在"
+    },
+    {
+      "name": "10 刷新后 NPC 的回复也全部还在",
+      "passed": true,
+      "detail": "10 轮回复全部仍在"
+    },
+    {
+      "name": "11 全程无浏览器控制台错误",
+      "passed": true,
+      "detail": "0 条"
+    }
+  ],
+  "consoleErrors": [],
+  "fatal": "",
+  "summary": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0
+  }
+}
